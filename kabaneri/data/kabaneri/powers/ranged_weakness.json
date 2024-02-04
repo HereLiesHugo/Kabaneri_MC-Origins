@@ -1,0 +1,15 @@
+{
+    "name": "Ranged Weakness",
+    "description": "Ranged weapons deal extra damage due to them piercing your heart.",
+
+    "type": "origins:action_when_damage_taken",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "function kabaneri:proj_weak"
+    },
+    "damage_condition": {
+        "type": "origins:projectile",
+        "projectile": "minecraft:arrow"
+    },
+    "cooldown": 1
+}

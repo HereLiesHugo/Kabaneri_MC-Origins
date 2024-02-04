@@ -9,7 +9,7 @@
             {
                 "type": "origins:feed",
                 "food": 4,
-                "saturation": 4
+                "saturation": 2
             }
         ]
     }
