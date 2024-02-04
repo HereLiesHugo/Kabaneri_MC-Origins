@@ -1,16 +1,15 @@
 {
     "name": "Firey Heart",
-    "description": "Having a literal fire burning inside your heart, you are immune to fire damage.",
+    "description": "Having a literal fire burning inside your heart, you take less damage from fire. (60% Less)",
 
-    "type": "origins:action_over_time",
-    "entity_action": {
-        "type": "origins:apply_effect",
-        "effect": {
-            "effect": "minecraft:fire_resistance",
-            "duration": -1,
-            "amplifier": 0,
-            "show_particles": false,
-            "show_icon": true
-        }
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:in_tag",
+        "tag": "is_fire"
+    },
+    "modifier": {
+        "name": "Less Fire Damage",
+        "operation": "addition",
+        "value": -0.6
     }
 }

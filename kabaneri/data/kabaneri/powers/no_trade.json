@@ -1,0 +1,20 @@
+{
+    "name": "Hybrid",
+    "description": "Villagers are wary, they refuse to trade with you",
+
+    "type": "origins:prevent_entity_use",
+    "bientity_action": {
+        "type": "origins:actor_action",
+        "action": {
+            "type": "origins:execute_command",
+            "command": "title @s actionbar {\"text\": \"Cannot trade with Villagers!\", \"color\": \"red\"}"
+        }
+    },
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:villager"
+        }
+    }
+}

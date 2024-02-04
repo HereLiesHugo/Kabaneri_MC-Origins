@@ -6,7 +6,8 @@
 		"kabaneri:kabane_body",
 		"kabaneri:kabane_diet",
 		"kabaneri:kabane_no_food",
-		"kabaneri:ranged_weakness"
+		"kabaneri:ranged_weakness",
+		"kabaneri:no_trade"
 	],
 	"icon": "minecraft:iron_ingot",
 	"order": 4,
