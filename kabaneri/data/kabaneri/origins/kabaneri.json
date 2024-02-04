@@ -3,7 +3,9 @@
 		"kabaneri:steel_heart/steel_heart",
 		"kabaneri:steel_heart/steel_heart_toughness",
 		"kabaneri:fire_heart",
-		"kabaneri:kabane_body"
+		"kabaneri:kabane_body",
+		"kabaneri:kabane_diet",
+		"kabaneri:kabane_no_food"
 	],
 	"icon": "minecraft:iron_ingot",
 	"order": 4,
