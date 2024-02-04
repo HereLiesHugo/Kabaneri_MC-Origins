@@ -1,0 +1,12 @@
+{
+    "name": "Steel Heart",
+    "description": "The heart of a Kabane, you gain 3 armour points.",
+
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Max health increase",
+        "attribute": "minecraft:generic.armor",
+        "value": 6,
+        "operation": "addition"
+    }
+}

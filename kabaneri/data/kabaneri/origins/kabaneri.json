@@ -1,6 +1,9 @@
 {
 	"powers": [
-		
+		"kabaneri:steel_heart/steel_heart",
+		"kabaneri:steel_heart/steel_heart_toughness",
+		"kabaneri:fire_heart",
+		"kabaneri:kabane_body"
 	],
 	"icon": "minecraft:iron_ingot",
 	"order": 4,

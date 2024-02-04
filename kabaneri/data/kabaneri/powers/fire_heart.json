@@ -1,0 +1,16 @@
+{
+    "name": "Firey Heart",
+    "description": "Having a literal fire burning inside your heart, you are immune to fire damage.",
+
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:fire_resistance",
+            "duration": -1,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": true
+        }
+    }
+}

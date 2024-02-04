@@ -1,0 +1,11 @@
+{
+    "hidden": "true",
+
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Max health increase",
+        "attribute": "minecraft:generic.armor_toughness",
+        "value": 6,
+        "operation": "addition"
+    }
+}
